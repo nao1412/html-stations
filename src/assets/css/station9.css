@@ -42,27 +42,19 @@ title {
   font-size: 12px;
 }
 
-@media screen and (max-width: 1200px) {
-  /* 1024pxまでの幅の場合に適応される */
-      body {
-          background-color:#2262D1;
-      }
-  }
-  @media screen and (max-width: 768px) {
-  /* 768pxまでの幅の場合に適応される */
-       body {
-          background-color:#f10010;
-      }
-      h1 {
-        font-size: 20px;
-      }
-  }
-  @media screen and (max-width: 320px) {
-  /* 480pxまでの幅の場合に適応される */
-      body {
-          background-color:#F9DF2C;
-      }
-      .card__description {
-        display: none;
-      }
-  }
+@media screen and (max-width: 768px) {
+
+/* 768pxまでの幅の場合に適応される */
+    h1 {
+      font-size: 20px;
+    }
+    .card__description {
+      font-size: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+/* 480pxまでの幅の場合に適応される */
+    .card__description {
+      display: none;
+    }
+}
