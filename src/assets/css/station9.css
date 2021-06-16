@@ -43,7 +43,7 @@ title {
 
 @media screen and (max-width: 768px) {
 /* 768pxまでの幅の場合に適応される */
-    h1 {
+    .card__title {
       font-size: 6px;
     }
     .card__description {
@@ -52,7 +52,7 @@ title {
 }
 @media screen and (max-width: 320px) {
 /* 480pxまでの幅の場合に適応される */
-    h1 {
+    .card__title {
       font-size: 6px;
     }
     .card__description {
