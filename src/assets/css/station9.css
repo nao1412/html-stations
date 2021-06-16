@@ -41,15 +41,6 @@ title {
   font-size: 12px;
 }
 
-@media screen and (max-width: 768px) {
-/* 768pxまでの幅の場合に適応される */
-    .card__title {
-      font-size: 6px;
-    }
-    .card__description {
-      font-size: 6px;
-    }
-}
 @media screen and (max-width: 320px) {
 /* 480pxまでの幅の場合に適応される */
     .card__title {
@@ -57,5 +48,15 @@ title {
     }
     .card__description {
       display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+/* 768pxまでの幅の場合に適応される */
+    .card__title {
+      font-size: 6px;
+    }
+    .card__description {
+      font-size: 6px;
     }
 }
