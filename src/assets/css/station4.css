@@ -1,16 +1,20 @@
 header {
   background-color: #ffffff;
 }
+
 body {
   background-color: #c4c4c4;
 }
+
 footer {
   background-color: #ffffff;
 }
+
 .card {
   padding: 5%;
   background-color: #fff;
 }
+
 .card__img-top {
   width: 288px;
   height: 182px;
@@ -21,6 +25,7 @@ footer {
   color: #282828;
   font-size: 12px;
 }
+
 .card__description {
   color: #282828;
   font-size: 12px;
